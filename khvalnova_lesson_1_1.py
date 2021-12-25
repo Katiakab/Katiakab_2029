@@ -1,7 +1,7 @@
 duration = int(input('Введите время в секундах: '))
-min = int(duration / 60)
-hour = int(duration / 3600)
-day = int(duration / 86400)
+min = int(duration / 60)           # 60 секунд в минуте
+hour = int(duration / 3600)        # 3600 секунд в часу
+day = int(duration / 86400)        # 86400 секунд в сутках
 print(duration, 'секунд')
 print(min, 'минут', duration % 60, 'секунд.')
 print(hour, 'часов', min % 60, 'минут', duration % 60, 'секунд.')

@@ -9,3 +9,5 @@ for number in range(100):
             print(str(number + 1) + ' процента')
     else:
         print(str(number + 1) + ' процентов')
+
+# результат цифры в столбик и сколение числа "процент"
